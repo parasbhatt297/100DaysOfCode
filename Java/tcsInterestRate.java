@@ -12,7 +12,7 @@ public class tcsInterestRate {
     sc.close();
    }
    public static double calculateInterest(Account a , int years){
-    double finalInterest = a.interest + (double)(a.interest * years)/100.0 ;
+    double finalInterest = a.interest +(a.interest * years)/100.0 ;
     return  a.balance * finalInterest / 100.0;                  
    }
 }
